@@ -1,0 +1,12 @@
+stages:
+- name: publish阶段
+  steps:
+  - publishImageConfig:
+      dockerfilePath: ./Dockerfile
+      buildContext: .
+      tag: example/app:v1
+- name: deploy阶段
+  steps:
+  - applyYamlConfig:
+      path: ./deployment.yaml
+timeout: 60
