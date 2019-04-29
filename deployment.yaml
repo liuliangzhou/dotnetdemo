@@ -1,0 +1,15 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: dotnetdemo
+apiVersion: apps/v1
+kind: Deployment
+spec:
+  replicas: 1
+  template:
+    spec:
+      imagePullSecrets:
+      - name: pipeline-docker-registry
+      containers:
+      - name: dotnetdemo
+        image: ${CICD_IMAGE}:${CICD_EXECUTION_SEQUENCE}
