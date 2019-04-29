@@ -1,14 +1,12 @@
 stages:
-- name: image
-  steps:
-  - runScriptConfig:
-      image: microsoft/dotnet:latest
 - name: publish
   steps:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
       tag: dotnetdemo
+      pushRemote: true
+      registry: 127.0.0.1:34586
 - name: deploy
   steps:
   - applyYamlConfig:
