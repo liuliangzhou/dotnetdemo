@@ -15,12 +15,5 @@ stages:
   steps:
   - applyYamlConfig:
       path: ./deployment.yaml
-- name: deploy
-  steps:
-  - applyAppConfig:
-      catalogTemplate: cattle-global-data:library-drone
-      version: 1.7.4
-      name: dotnetdemo
-      targetNamespace: default
 timeout: 60
 notification: {}
