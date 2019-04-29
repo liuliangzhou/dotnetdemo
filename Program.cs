@@ -6,7 +6,7 @@ namespace dotnetdemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! "+DateTime.Now.Millisecond.ToString());
+            Console.WriteLine("Hello World! "+DateTime.Now.ToString());
         }
     }
 }
