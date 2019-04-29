@@ -1,11 +1,10 @@
 
 FROM microsoft/dotnet:latest
 
-WORKDIR /opt/bin
+WORKDIR .
 
-COPY bin/Release/netcoreapp2.0 /opt/bin 
+COPY bin/Debug/netcoreapp2.0 .
 
-EXPOSE 5000
 EXPOSE 8080
 
 ENTRYPOINT ["dotnet", "dotnetdemo.dll"]
