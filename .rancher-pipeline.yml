@@ -3,11 +3,7 @@ stages:
   steps:
   - runScriptConfig:
       image: microsoft/dotnet:latest
-      shellScript: |-
-        WORKDIR app
-        COPY bin/Debug/netcoreapp2.0 ./app
-        EXPOSE 8080
-        ENTRYPOINT ["dotnet", "dotnetdemo.dll"]
+      shellScript: ENTRYPOINT ["dotnet", "dotnetdemo.dll"]
 - name: publish
   steps:
   - publishImageConfig:
