@@ -4,6 +4,8 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
+      tag: dotnetdemo
+      registry: 127.0.0.1:34586
 - name: deploy阶段
   steps:
   - applyYamlConfig:
