@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Codes\\testing\\dotnetdemo\\dotnetdemo\\dotnetdemo.csproj",
+      "projectUniqueName": "D:\\Codes\\github.com\\dotnetdemo\\dotnetdemo.csproj",
       "projectName": "dotnetdemo",
-      "projectPath": "D:\\Codes\\testing\\dotnetdemo\\dotnetdemo\\dotnetdemo.csproj",
+      "projectPath": "D:\\Codes\\github.com\\dotnetdemo\\dotnetdemo.csproj",
       "packagesPath": "C:\\Users\\h302201\\.nuget\\packages\\",
-      "outputPath": "D:\\Codes\\testing\\dotnetdemo\\dotnetdemo\\obj\\",
+      "outputPath": "D:\\Codes\\github.com\\dotnetdemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

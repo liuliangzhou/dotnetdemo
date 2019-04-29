@@ -8,3 +8,13 @@ D:\Codes\testing\dotnetdemo\dotnetdemo\obj\Debug\netcoreapp2.0\dotnetdemo.Assemb
 D:\Codes\testing\dotnetdemo\dotnetdemo\obj\Debug\netcoreapp2.0\dotnetdemo.AssemblyInfo.cs
 D:\Codes\testing\dotnetdemo\dotnetdemo\obj\Debug\netcoreapp2.0\dotnetdemo.dll
 D:\Codes\testing\dotnetdemo\dotnetdemo\obj\Debug\netcoreapp2.0\dotnetdemo.pdb
+D:\Codes\github.com\dotnetdemo\bin\Debug\netcoreapp2.0\dotnetdemo.deps.json
+D:\Codes\github.com\dotnetdemo\bin\Debug\netcoreapp2.0\dotnetdemo.runtimeconfig.json
+D:\Codes\github.com\dotnetdemo\bin\Debug\netcoreapp2.0\dotnetdemo.runtimeconfig.dev.json
+D:\Codes\github.com\dotnetdemo\bin\Debug\netcoreapp2.0\dotnetdemo.dll
+D:\Codes\github.com\dotnetdemo\bin\Debug\netcoreapp2.0\dotnetdemo.pdb
+D:\Codes\github.com\dotnetdemo\obj\Debug\netcoreapp2.0\dotnetdemo.csproj.CoreCompileInputs.cache
+D:\Codes\github.com\dotnetdemo\obj\Debug\netcoreapp2.0\dotnetdemo.AssemblyInfoInputs.cache
+D:\Codes\github.com\dotnetdemo\obj\Debug\netcoreapp2.0\dotnetdemo.AssemblyInfo.cs
+D:\Codes\github.com\dotnetdemo\obj\Debug\netcoreapp2.0\dotnetdemo.dll
+D:\Codes\github.com\dotnetdemo\obj\Debug\netcoreapp2.0\dotnetdemo.pdb

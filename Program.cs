@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace dotnetdemo
 {
@@ -6,7 +7,11 @@ namespace dotnetdemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! "+DateTime.Now.ToString());
+            while (true)
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine("Hello World! " + DateTime.Now.ToString());
+            }
         }
     }
 }
