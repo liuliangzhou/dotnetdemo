@@ -1,11 +1,24 @@
 stages:
-- name: publish阶段
+- name: image
+  steps:
+  - runScriptConfig:
+      image: microsoft/dotnet:latest
+      shellScript: |-
+        WORKDIR .
+
+        COPY bin/Debug/netcoreapp2.0 .
+
+        EXPOSE 8080
+
+        ENTRYPOINT ["dotnet", "dotnetdemo.dll"]
+- name: publish
   steps:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
+      buildContext: .
       tag: dotnetdemo
       registry: 127.0.0.1:34586
-- name: deploy阶段
+- name: deploy
   steps:
   - applyYamlConfig:
       path: ./deployment.yaml
