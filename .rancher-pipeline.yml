@@ -2,7 +2,7 @@ stages:
 - name: image
   steps:
   - runScriptConfig:
-      image: FROM microsoft/dotnet:latest
+      image: microsoft/dotnet:latest
       shellScript: ENTRYPOINT ["dotnet", "dotnetdemo.dll"]
 - name: publish
   steps:
